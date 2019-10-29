@@ -28,8 +28,9 @@ public class MonsterTwo {
         {
             for (int j = 0; j < battleBoard[i].length; j++)
             {
-                System.out.println("|" + battleBoard[i][j] + "|");
+                System.out.print("|" + battleBoard[i][j] + "|");
             }
+            System.out.println();
         }
 
         k = 1;
@@ -122,9 +123,4 @@ public class MonsterTwo {
 
     }
 
-    public static void main(String[] args)
-    {
-        buildBattleBoard();
-        redrawBoard();
-    }
 }
